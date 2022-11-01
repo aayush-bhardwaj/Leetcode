@@ -1,3 +1,7 @@
+"""
+https://leetcode.com/problems/longest-common-prefix/
+"""
+
 class Solution:
     def reverse(self, x: int) -> int:
         output = ""
@@ -21,10 +25,7 @@ class Solution:
             return int(output) * -1
         return int(output)
 
-class Solution2:
-    def reverse(self, x: int) -> int:
-        pass
 
 obj = Solution()
-output = obj.reverse(-103)
+output = obj.reverse(103)
 print(output)
